@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewBag.Title = "Points - Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+
+    function initMap() {
+        var myLatLng = { lat: 25.269668104886872, lng: 51.519235355819774 };
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 17,
+            center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Points Qatar!'
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlfk9irvDgU0n-21GLfrWZ188OIlMNIMI&callback=initMap">
+</script>
+
+<section id="contact-info">
+    <div class="center">
+        <h2>How to Reach Us?</h2>
+        @*<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>*@
+    </div>
+    <div class="gmap-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 text-center">
+                    <div class="gmap" id="map">
+
+                    </div>
+                </div>
+                <div class="col-sm-7 map-content">
+                    <ul class="row">
+                        <li class="col-sm-6">
+                            <address>
+                                <h5><u>Head Office</u></h5>
+                                <p>
+                                    Points (an ASA Group of companies),<br />
+                                    Ibn Sina Street, Al Muntazah,<br />
+                                    P.O.Box - 46056,<br />
+                                    Doha - Qatar.
+                                </p>
+                                <p>
+                                    Phone: +974-44145050 <br />
+                                    Fax: +974-44145050 <br />
+                                    Email Address: <a href="mailto:info@pointsqatar.com">info@pointsqatar.com</a>
+                                </p>
+                            </address>
+                        </li>
+                        <li class="col-sm-6">
+                            <address>
+                                <h5><u>Zone Office</u></h5>
+                                <p>
+                                    Points,<br />
+                                    Salwa Road, Ritaj Building No: B 50,<br />
+                                    P.O.Box - 8337<br />
+                                    Doha - Qatar
+                                </p>
+                                <p>
+                                    Phone: +974-44165200 <br />
+                                    Mobile: 55357088<br />
+                                    Email Address: <a href="mailto:info@pointsqatar.com">info@pointsqatar.com</a>
+                                </p>
+                            </address>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  <!--/gmap_area -->
+<section id="contact-page">
+    <div class="container">
+        <div class="center">
+            <h2>Drop Your Message</h2>
+            <p class="lead">Please contact us with any questions you may have about our site, services, software solutions etc. You will receive a reply within 24 business hours.</p>
+        </div>
+        <div class="row contact-wrap">
+            <div class="status alert alert-success" style="display: none"></div>
+            <form id="main-contact-form" class="contact-form" name="contact-form" method="post">
+                <div class="col-sm-5 col-sm-offset-1">
+                    <div class="form-group">
+                        <label>Name *</label>
+                        <input id="userName" type="text" name="name" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Email *</label>
+                        <input id="userMailId" type="email" name="email" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input id="userPhoneNo" type="number" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Company Name</label>
+                        <input id="userCmpyName" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="form-group">
+                        <label>Subject *</label>
+                        <input id="userSubject" type="text" name="subject" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Message *</label>
+                        <textarea id="userMessage" name="message" required="required" class="form-control" rows="8"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>
+                    </div>
+                </div>
+            </form>
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#contact-page-->

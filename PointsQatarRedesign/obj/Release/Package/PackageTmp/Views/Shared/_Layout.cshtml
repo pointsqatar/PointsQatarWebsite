@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>@ViewBag.Title</title>
+
+    <link rel="icon" href="~/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon" />
+
+    <!-- core CSS -->
+    <link href="~/css/bootstrap.css" rel="stylesheet">
+    <link href="~/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/css/animate.min.css" rel="stylesheet">
+    <link href="~/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/css/main.css" rel="stylesheet">
+    <link href="~/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="~/images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+
+    <header id="header">
+
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-4">
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +974-44165200</p></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-8">
+                        <div class="social">
+                            <ul class="social-share">
+                                <li><a href="https://www.facebook.com/pointsqatar" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/points-for-technology" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="@Url.Action("Index","Home")"><img src="~/images/points-logo.png" alt="logo" style="width:150px;height:60px"></a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="@ViewBag.isIndexActive"><a href="@Url.Action("index", "home")">Home</a></li>
+                        <li class="@ViewBag.isServicesActive"><a href="@Url.Action("services", "home")">Services</a></li>
+                        <li class="@ViewBag.isPlatformsActive"><a href="@Url.Action("platforms", "home")">Platforms</a></li>
+                        <li class="@ViewBag.isAboutUsActive"><a href="@Url.Action("aboutus", "home")">About Us</a></li>
+                        <li class="@ViewBag.isContacuUsActive"><a href="@Url.Action("contact", "home")">Contact</a></li>
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+
+    </header><!--/header-->
+
+    @RenderBody()
+
+
+
+    <section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="@Url.Action("index", "home")">Home</a></li>
+                            <li><a href="@Url.Action("services", "home")">Services</a></li>
+                            <li><a href="@Url.Action("platforms", "home")">Platforms</a></li>
+                            <li><a href="@Url.Action("aboutus", "home")">About Us</a></li>
+                            <li><a href="@Url.Action("contact", "home")">Contact</a></li>
+                        </ul>
+                    </div>
+                </div><!--/.col-md-3-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Desktop Apps</h3>
+                        <ul>
+                            <li><p>Enterprise Applications</p></li>
+                            <li><p>Interventory Management</p></li>
+                            <li><p>Sales Management</p></li>
+                            <li><p>Database Management</p></li>
+                            <li><p>Custom Softwares</p></li>
+                            <li><p>Cloud Applications</p></li>
+                        </ul>
+                    </div>
+                </div><!--/.col-md-3-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Web & Mobile Apps</h3>
+                        <ul>
+                            <li><p>Responsive Website Design</p></li>
+                            <li><p>E-Commerce Website Design</p></li>
+                            <li><p>CMS Website Design</p></li>
+                            <li><p>Native Mobile Apps</p></li>
+                            <li><p>Cross Platform Apps</p></li>
+                        </ul>
+                    </div>
+                </div><!--/.col-md-3-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Sales & Services</h3>
+                        <ul>
+                            <li><p>Laptop & Desktop Sales</p></li>
+                            <li><p>Printers Sales</p></li>
+                            <li><p>Computer Repair</p></li>
+                            <li><p>Software Installation</p></li>
+                            <li><p>CCTV Camera Services</p></li>
+                            <li><p>All Office Equipments</p></li>
+                        </ul>
+                    </div>
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2016 <a href="@Url.Action("Index","Home")" title="Points for Technology,Systems and Networking">Points for Technology,Systems and Networking</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="@Url.Action("index", "home")">Home</a></li>
+                        <li><a href="@Url.Action("services", "home")">Services</a></li>
+                        <li><a href="@Url.Action("platforms", "home")">Platforms</a></li>
+                        <li><a href="@Url.Action("aboutus", "home")">About Us</a></li>
+                        <li><a href="@Url.Action("contact", "home")">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+    <script src="~/js/jquery.prettyPhoto.js"></script>
+    <script src="~/js/jquery.isotope.min.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/wow.min.js"></script>
+</body>
+
+</html>
