@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="PointsQatarRedesignDev" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Points\\Projects\\PointsQatarRedesign\\PointsQatarRedesign\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Points\\Projects\\PointsQatarRedesign\\PointsQatarRedesign\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\GitHub\\PointsQatarWebsite\\PointsQatarRedesign\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\GitHub\\PointsQatarWebsite\\PointsQatarRedesign\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
   <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-PointsQatarRedesign-20160416091354.mdf;Initial Catalog=aspnet-PointsQatarRedesign-20160416091354;Integrated Security=True" tags="">
-    <parameterEntry kind="XmlFile" scope="D:\\Points\\Projects\\PointsQatarRedesign\\PointsQatarRedesign\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="D:\\GitHub\\PointsQatarWebsite\\PointsQatarRedesign\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
 </parameters>

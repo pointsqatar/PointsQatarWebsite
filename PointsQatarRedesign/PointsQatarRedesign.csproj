@@ -369,6 +369,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="Documents\Points Services.pdf" />
     <None Include="js\jquery-1.10.2.intellisense.js" />
     <Content Include="js\html5shiv.js" />
     <Content Include="js\jquery-1.10.2.js" />
@@ -407,6 +408,7 @@
     <Content Include="Views\Home\AboutUs.cshtml" />
     <None Include="Properties\PublishProfiles\PointsQatarRedesignDev - Web Deploy.pubxml" />
     <Content Include="Views\Home\Platforms.cshtml" />
+    <None Include="Properties\PublishProfiles\PointsQatarRedesignDev.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
