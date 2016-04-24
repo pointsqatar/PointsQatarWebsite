@@ -1,0 +1,8 @@
+﻿User-agent: *
+
+Disallow: /about
+Disallow: /contact
+Disallow: /*subservices
+Disallow: /login
+
+Sitemap: http://www.pointsqatar.com/sitemap.xml

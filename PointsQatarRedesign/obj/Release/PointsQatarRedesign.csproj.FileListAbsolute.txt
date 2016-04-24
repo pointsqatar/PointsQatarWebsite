@@ -148,3 +148,5 @@ D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Microsoft.Owin.Security.Mic
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\obj\Release\PointsQatarRedesign.csprojResolveAssemblyReference.cache
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\obj\Release\PointsQatarRedesign.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\obj\Release\PointsQatarRedesign.pdb
+D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\PointsQatarReDesignBusinessLayer.dll
+D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\PointsQatarReDesignBusinessLayer.pdb

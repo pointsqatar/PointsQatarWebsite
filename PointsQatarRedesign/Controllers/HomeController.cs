@@ -1,8 +1,12 @@
-﻿using System;
+﻿using PointsQatarReDesignBusinessLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using PointsQatarRedesign.Models;
+using Newtonsoft.Json;
 
 namespace PointsQatarRedesign.Controllers
 {
@@ -61,7 +65,24 @@ namespace PointsQatarRedesign.Controllers
             ViewBag.isAboutUsActive = string.Empty;
             ViewBag.isContacuUsActive = string.Empty;
             ViewBag.isPlatformsActive = "active";
+
+            string newsFeed = NewsFeedManager.GetNewsFeed();
+
+            ConstructNewsFeed(newsFeed);
+
             return View();
+        }
+
+        private void ConstructNewsFeed(string newsFeedString)
+        {
+            if (newsFeedString != "error")
+            {
+                var newsFeed = JsonConvert.DeserializeObject<NewsFeed>(newsFeedString);
+                if (newsFeed != null)
+                {
+                    ViewBag.NewsFeed = newsFeed;
+                }
+            }
         }
     }
 }

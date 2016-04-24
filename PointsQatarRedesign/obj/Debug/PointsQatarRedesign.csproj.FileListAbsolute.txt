@@ -182,6 +182,7 @@ D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Microsoft.Owin.Security.Twi
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Microsoft.Web.Infrastructure.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Newtonsoft.Json.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Owin.dll
+D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\PointsQatarReDesignBusinessLayer.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\System.Net.Http.Formatting.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\System.Web.Helpers.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\System.Web.Http.dll
@@ -193,6 +194,7 @@ D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\System.Web.WebPages.Deploym
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\System.Web.WebPages.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\System.Web.WebPages.Razor.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\WebGrease.dll
+D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\PointsQatarReDesignBusinessLayer.pdb
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\System.Net.Http.Formatting.xml
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\System.Web.Http.xml
@@ -220,5 +222,6 @@ D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Microsoft.Owin.Security.OAu
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Microsoft.Owin.Security.Google.xml
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Microsoft.Owin.Security.Twitter.xml
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\obj\Debug\PointsQatarRedesign.csprojResolveAssemblyReference.cache
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\obj\Debug\PointsQatarRedesign.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarRedesign\obj\Debug\PointsQatarRedesign.pdb

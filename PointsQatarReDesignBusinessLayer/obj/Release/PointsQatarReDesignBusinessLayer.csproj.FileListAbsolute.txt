@@ -1,0 +1,4 @@
+D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Release\PointsQatarReDesignBusinessLayer.dll
+D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Release\PointsQatarReDesignBusinessLayer.pdb
+D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Release\PointsQatarReDesignBusinessLayer.dll
+D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Release\PointsQatarReDesignBusinessLayer.pdb
