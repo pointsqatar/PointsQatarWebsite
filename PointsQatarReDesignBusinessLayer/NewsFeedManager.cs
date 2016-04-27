@@ -27,5 +27,23 @@ namespace PointsQatarReDesignBusinessLayer
             }
             return newsfeed;
         }
+
+        public static string GetQatarNewsFeed()
+        {
+            string newsFeedURL = ConfigurationManager.AppSettings["qatarNewsFeed"];
+            string newsfeed = string.Empty;
+            using (WebClient client = new WebClient())
+            {
+                try
+                {
+                    newsfeed = client.DownloadString(newsFeedURL);
+                }
+                catch (Exception ex)
+                {
+                    newsfeed = "error";
+                }
+            }
+            return newsfeed;
+        }
     }
 }

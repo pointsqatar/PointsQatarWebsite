@@ -3,13 +3,19 @@
     ViewBag.Title = "Points - About Us";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+@section metaKeywords
+{
+    <meta name="keywords" Content="it solutions, it services, business technology consulting, , consulting service,
+          business process outsourcing services, engineering services, cctv services, networking solution, qatar development, it in qatar, qatar software
+          technology in qatar, points technology, points for technology, points for networking, hardware services in doha,
+          professionals, software professionals in doha, about points">
+}
 <section id="about-us">
     <div class="container">
 
         <div class="center wow fadeInDown">
             <h2>About Points</h2>
-            <p class="lead" style="text-align:justify">We at <b>Points</b> believe in growth and development and hence keep in mind always customers’ care and satisfaction which is built upon strong relationship and trust. Our highly skilled and motivated workforce always give their best in every project and strives towards creating newer benchmarks. These professionals with their hard work, passion and enthusiasm are always there to listen to the customers and totally committed to provide best services with their experience and knowledge.</p>
+            <p class="lead" style="text-align:justify">We at <b>Points</b> believe in growth and development and hence keep in mind always customer's care and satisfaction which is built upon strong relationship and trust. Our highly skilled and motivated workforce always give their best in every project and strives towards creating newer benchmarks. These professionals with their hard work, passion and enthusiasm are always there to listen to the customers and totally committed to provide best services with their experience and knowledge.</p>
 
             <p class="lead" style="text-align:justify"> We also believe that success is the result of full commitment in providing pioneer technologies and premium solutions. We measure this success by the value that has been added to realize business process. A vision that we are focused on is to be a global and leading provider in IT Services and Solutions.</p>
         </div>
@@ -33,10 +39,13 @@
                         <img src="~/images/doha day.jpg" class="img-responsive" alt="">
                     </div>
                     <div class="item">
-                        <img src="~/images/doha night.jpg" class="img-responsive" alt="">
+                        <img src="~/images/doha light.jpg" class="img-responsive" alt="">
                     </div>
                     <div class="item">
                         <img src="~/images/doha b&w.jpg" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="~/images/villagio.jpg" class="img-responsive" alt="">
                     </div>
                 </div>
 
@@ -50,136 +59,136 @@
             </div> <!--/#carousel-slider-->
         </div><!--/#about-slider-->
         <!-- our-team -->
-        <div class="team" style="padding-top:50px;">
-            <div class="center wow fadeInDown">
-                <h2>Team of Points</h2>
-                <p class="lead">Point's core leadership group for strategic development and execution strategy.</p>
-            </div>
-            <div class="row clearfix">
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img class="media-object" src="~/images/man1.jpg" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <h4>Jhon Doe</h4>
-                                <h5>Founder and CEO</h5>
-                                <ul class="tag clearfix">
-                                    <li class="btn"><a href="#">Web</a></li>
-                                    <li class="btn"><a href="#">Ui</a></li>
-                                    <li class="btn"><a href="#">Ux</a></li>
-                                    <li class="btn"><a href="#">Photoshop</a></li>
-                                </ul>
+        @*<div class="team" style="padding-top:50px;">
+                <div class="center wow fadeInDown">
+                    <h2>Team of Points</h2>
+                    <p class="lead">Point's core leadership group for strategic development and execution strategy.</p>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img class="media-object" src="~/images/man1.jpg" alt=""></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Jhon Doe</h4>
+                                    <h5>Founder and CEO</h5>
+                                    <ul class="tag clearfix">
+                                        <li class="btn"><a href="#">Web</a></li>
+                                        <li class="btn"><a href="#">Ui</a></li>
+                                        <li class="btn"><a href="#">Ux</a></li>
+                                        <li class="btn"><a href="#">Photoshop</a></li>
+                                    </ul>
 
-                                <ul class="social_icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div><!--/.media -->
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                    </div>
-                </div><!--/.col-lg-4 -->
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div><!--/.media -->
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        </div>
+                    </div><!--/.col-lg-4 -->
 
-                <div class="col-md-4 col-sm-6 col-md-offset-2">
-                    <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img class="media-object" src="~/images/man2.jpg" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <h4>Jhon Doe</h4>
-                                <h5>Founder and CEO</h5>
-                                <ul class="tag clearfix">
-                                    <li class="btn"><a href="#">Web</a></li>
-                                    <li class="btn"><a href="#">Ui</a></li>
-                                    <li class="btn"><a href="#">Ux</a></li>
-                                    <li class="btn"><a href="#">Photoshop</a></li>
-                                </ul>
-                                <ul class="social_icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div><!--/.media -->
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                    </div>
-                </div><!--/.col-lg-4 -->
-            </div> <!--/.row -->
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img class="media-object" src="~/images/man2.jpg" alt=""></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Jhon Doe</h4>
+                                    <h5>Founder and CEO</h5>
+                                    <ul class="tag clearfix">
+                                        <li class="btn"><a href="#">Web</a></li>
+                                        <li class="btn"><a href="#">Ui</a></li>
+                                        <li class="btn"><a href="#">Ux</a></li>
+                                        <li class="btn"><a href="#">Photoshop</a></li>
+                                    </ul>
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div><!--/.media -->
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        </div>
+                    </div><!--/.col-lg-4 -->
+                </div> <!--/.row -->
 
-            <div class="row team-bar">
-                <div class="first-one-arrow hidden-xs">
-                    <hr>
-                </div>
-                <div class="first-arrow hidden-xs">
-                    <hr> <i class="fa fa-angle-up"></i>
-                </div>
-                <div class="second-arrow hidden-xs">
-                    <hr> <i class="fa fa-angle-down"></i>
-                </div>
-                <div class="third-arrow hidden-xs">
-                    <hr> <i class="fa fa-angle-up"></i>
-                </div>
-                <div class="fourth-arrow hidden-xs">
-                    <hr> <i class="fa fa-angle-down"></i>
-                </div>
-            </div> <!--skill_border-->
-            <div class="row clearfix">
-                <div class="col-md-4 col-sm-6 col-md-offset-2">
-                    <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img class="media-object" src="~/images/man3.jpg" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <h4>Jhon Doe</h4>
-                                <h5>Founder and CEO</h5>
-                                <ul class="tag clearfix">
-                                    <li class="btn"><a href="#">Web</a></li>
-                                    <li class="btn"><a href="#">Ui</a></li>
-                                    <li class="btn"><a href="#">Ux</a></li>
-                                    <li class="btn"><a href="#">Photoshop</a></li>
-                                </ul>
-                                <ul class="social_icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div><!--/.media -->
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <div class="row team-bar">
+                    <div class="first-one-arrow hidden-xs">
+                        <hr>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-md-offset-2">
-                    <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img class="media-object" src="~/images/man4.jpg" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <h4>Jhon Doe</h4>
-                                <h5>Founder and CEO</h5>
-                                <ul class="tag clearfix">
-                                    <li class="btn"><a href="#">Web</a></li>
-                                    <li class="btn"><a href="#">Ui</a></li>
-                                    <li class="btn"><a href="#">Ux</a></li>
-                                    <li class="btn"><a href="#">Photoshop</a></li>
-                                </ul>
-                                <ul class="social_icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div><!--/.media -->
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <div class="first-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-up"></i>
                     </div>
-                </div>
-            </div>	<!--/.row-->
-        </div><!--section-->
+                    <div class="second-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="third-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-up"></i>
+                    </div>
+                    <div class="fourth-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-down"></i>
+                    </div>
+                </div> <!--skill_border-->
+                <div class="row clearfix">
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img class="media-object" src="~/images/man3.jpg" alt=""></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Jhon Doe</h4>
+                                    <h5>Founder and CEO</h5>
+                                    <ul class="tag clearfix">
+                                        <li class="btn"><a href="#">Web</a></li>
+                                        <li class="btn"><a href="#">Ui</a></li>
+                                        <li class="btn"><a href="#">Ux</a></li>
+                                        <li class="btn"><a href="#">Photoshop</a></li>
+                                    </ul>
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div><!--/.media -->
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img class="media-object" src="~/images/man4.jpg" alt=""></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Jhon Doe</h4>
+                                    <h5>Founder and CEO</h5>
+                                    <ul class="tag clearfix">
+                                        <li class="btn"><a href="#">Web</a></li>
+                                        <li class="btn"><a href="#">Ui</a></li>
+                                        <li class="btn"><a href="#">Ux</a></li>
+                                        <li class="btn"><a href="#">Photoshop</a></li>
+                                    </ul>
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div><!--/.media -->
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        </div>
+                    </div>
+                </div>	<!--/.row-->
+            </div><!--section-->*@
 
     </div><!--/.container-->
 </section><!--/about-us-->

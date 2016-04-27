@@ -3,7 +3,12 @@
     ViewBag.Title = "Points - Home";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+@section metaKeywords
+{
+    <meta name="keywords" Content="it solutions, it services, business technology consulting, , consulting service,
+          business process outsourcing services, engineering services, cctv services, networking solution, qatar development, it in qatar, qatar software
+          technology in qatar, points technology">
+}
 <section id="main-slider" class="no-margin">
     <div class="carousel slide">
         <ol class="carousel-indicators">
@@ -24,7 +29,7 @@
                         </div>
                         <div class="col-sm-6 hidden-xs animation animated-item-4">
                             <div class="slider-img">
-                                <img src="~/images/slider/img1.png" class="img-responsive">
+                                <img src="~/images/slider/img1.png" alt="building ideas" class="img-responsive">
                             </div>
                         </div>
                     </div>
@@ -42,7 +47,7 @@
                         </div>
                         <div class="col-sm-6 hidden-xs animation animated-item-4">
                             <div class="slider-img">
-                                <img src="~/images/slider/img2.png" class="img-responsive">
+                                <img src="~/images/slider/img2.png" alt="find solutions" class="img-responsive">
                             </div>
                         </div>
                     </div>
@@ -60,7 +65,7 @@
                         </div>
                         <div class="col-sm-6 hidden-xs animation animated-item-4">
                             <div class="slider-img">
-                                <img src="~/images/slider/img3.png" class="img-responsive">
+                                <img src="~/images/slider/img3.png" alt="mission" class="img-responsive">
                             </div>
                         </div>
                     </div>
@@ -136,12 +141,12 @@
     <div class="container">
         <div class="center wow fadeInDown">
             <h2>Recent Works</h2>
-            <p class="lead">Take a moment to view some of our latest work. We do everything from web design, web development, consulting, maintenance, hardware services, marketing, and everything in between!</p>
+            <p class="lead">Take a moment to view some of our latest work. We do everything from software development, web design & development, mobile apps, consulting, maintenance, hardware services, marketing and everything in between!</p>
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="recent-work-wrap">
-                    <img class="img-responsive" src="~/images/portfolio/recent/cctv.png" alt="">
+                    <img class="img-responsive" src="~/images/portfolio/recent/cctv.png" alt="cctv service">
                     <div class="overlay">
                         <div class="recent-work-inner">
                             <h3><a href="#">CCTV Services</a> </h3>
@@ -154,7 +159,7 @@
 
             <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="recent-work-wrap">
-                    <img class="img-responsive" src="~/images/portfolio/recent/item1.png" alt="">
+                    <img class="img-responsive" src="~/images/portfolio/recent/item1.png" alt="web and mobile apps">
                     <div class="overlay">
                         <div class="recent-work-inner">
                             <h3><a href="#">Mobile and Web apps</a></h3>
@@ -176,7 +181,7 @@
         </div>
         <div class="partners">
             <ul>
-                <li> <a href="http://www.epson.com/" target="_blank"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="~/images/partners/Epson-Logo.png"></a></li>
+                <li> <a href="http://www.epson.com/" target="_blank"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="~/images/partners/Epson-Logo.png" alt="epson"></a></li>
                 @*<li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="~/images/partners/partner2.png"></a></li>
                     <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="~/images/partners/partner3.png"></a></li>
                     <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="~/images/partners/partner4.png"></a></li>

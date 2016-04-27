@@ -1,4 +1,0 @@
-D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Debug\PointsQatarReDesignBusinessLayer.dll
-D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Debug\PointsQatarReDesignBusinessLayer.pdb
-D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Debug\PointsQatarReDesignBusinessLayer.dll
-D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Debug\PointsQatarReDesignBusinessLayer.pdb

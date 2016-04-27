@@ -2,5 +2,6 @@
 
 Disallow: /*subservices
 Disallow: /login
+Disallow: /*php
 
 Sitemap: http://www.pointsqatar.com/sitemap.xml

@@ -12,11 +12,6 @@ namespace PointsQatarRedesign.api
 {
     public class MailManagerController : Controller
     {
-        public string Get()
-        {
-            return "This is a test data";
-        }
-
         [System.Web.Http.HttpPost]
         public string SendMail(EmailModel userDetails)
         {
@@ -53,7 +48,6 @@ namespace PointsQatarRedesign.api
             }
             return result;
         }
-
 
         private string GetMailTemplate()
         {

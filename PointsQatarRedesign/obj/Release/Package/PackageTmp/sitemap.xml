@@ -1,26 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.pointsqatar.com/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-qa" href="http://www.pointsqatar.com/index.html" />
-    <xhtml:link rel="alternate" hreflang="ar-za" href="http://www.pointsqatar.com/index.html" />
-    <lastmod>2016-04-07T11:27:11+00:00</lastmod>
+    <loc>http://www.pointsqatar.com</loc>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="http://www.pointsqatar.com/home/index" />
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://www.pointsqatar.com/home/index" />
+    <lastmod>2016-04-25T11:27:11+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>http://www.pointsqatar.com/work.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-qa" href="http://www.pointsqatar.com/work.html" />
-    <xhtml:link rel="alternate" hreflang="ar-za" href="http://www.pointsqatar.com/work.html" />
-    <lastmod>2016-04-07T11:27:11+00:00</lastmod>
+    <loc>http://www.pointsqatar.com/home/services</loc>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="http://www.pointsqatar.com/home/services" />
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://www.pointsqatar.com/home/services" />
+    <lastmod>2016-04-25T11:27:11+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>http://www.pointsqatar.com/contact.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-qa" href="http://www.pointsqatar.com/contact.html" />
-    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://www.pointsqatar.com/contact.html" />
-    <lastmod>2016-04-07T11:27:11+00:00</lastmod>
+    <loc>http://www.pointsqatar.com/home/platforms</loc>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="http://www.pointsqatar.com/home/platforms" />
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://www.pointsqatar.com/home/platforms" />
+    <lastmod>2016-04-25T11:27:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.80</priority>
+  </url>
+ <url>
+    <loc>http://www.pointsqatar.com/home/aboutus</loc>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="http://www.pointsqatar.com/home/aboutus" />
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://www.pointsqatar.com/home/aboutus" />
+    <lastmod>2016-04-25T11:27:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.80</priority>
+  </url>
+ <url>
+    <loc>http://www.pointsqatar.com/home/services</loc>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="http://www.pointsqatar.com/home/contact" />
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://www.pointsqatar.com/home/contact" />
+    <lastmod>2016-04-25T11:27:11+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.80</priority>
   </url>
