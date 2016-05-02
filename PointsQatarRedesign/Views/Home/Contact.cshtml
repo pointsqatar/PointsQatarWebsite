@@ -12,18 +12,34 @@
 <script>
 
     function initMap() {
-        var myLatLng = { lat: 25.269668104886872, lng: 51.519235355819774 };
+        var locations = [
+         ['ASA Group of Companies', 25.269668104886872, 51.519235355819774, 2],
+         ['Points', 25.2518271, 51.4780785, 1]
+        ];
 
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 17,
-            center: myLatLng
+            zoom: 12,
+            center: new google.maps.LatLng(25.27966, 51.51923),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Points Qatar!'
-        });
+        var infowindow = new google.maps.InfoWindow();
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map
+            });
+
+            google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                return function () {
+                    infowindow.setContent(locations[i][0]);
+                    infowindow.open(map, marker);
+                }
+            })(marker, i));
+        }
     }
 </script>
 <script async defer

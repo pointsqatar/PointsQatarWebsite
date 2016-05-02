@@ -211,6 +211,7 @@
     <Content Include="images\ads\ad4.png" />
     <Content Include="images\al-hekma.png" />
     <Content Include="images\alsalemgroup.png" />
+    <Content Include="images\app dev.jpg" />
     <Content Include="images\blog\avatar.jpg" />
     <Content Include="images\blog\avatar1.png" />
     <Content Include="images\blog\avatar2.png" />
@@ -231,6 +232,7 @@
     <Content Include="images\blog\thumb1.jpg" />
     <Content Include="images\blog\thumb2.jpg" />
     <Content Include="images\blog\thumb3.jpg" />
+    <Content Include="images\cctv service.jpg" />
     <Content Include="images\client1.png" />
     <Content Include="images\client2.png" />
     <Content Include="images\client3.png" />
@@ -259,6 +261,7 @@
     <Content Include="images\man3.jpg" />
     <Content Include="images\man4.jpg" />
     <Content Include="images\map.jpg" />
+    <Content Include="images\network.jpg" />
     <Content Include="images\partners\Epson-Logo.png" />
     <Content Include="images\partners\partner1.png" />
     <Content Include="images\partners\partner2.png" />
@@ -335,6 +338,7 @@
     <Content Include="images\ribon_one.png" />
     <Content Include="images\ribon_two.png" />
     <Content Include="images\search_icon.png" />
+    <Content Include="images\security service.jpg" />
     <Content Include="images\services\bg_services.jpg" />
     <Content Include="images\services\bg_services.png" />
     <Content Include="images\services\cctv.png" />
@@ -369,6 +373,7 @@
     <Content Include="images\team-member.jpg" />
     <Content Include="images\testimonials1.png" />
     <Content Include="images\villagio.jpg" />
+    <Content Include="images\web design.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="images\404.xcf" />
@@ -416,6 +421,7 @@
     <Content Include="Views\Home\Services.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
+    <None Include="Properties\PublishProfiles\PointsQatarRedesignDev %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\PointsQatarRedesignDev - Web Deploy.pubxml" />
     <Content Include="Views\Home\Platforms.cshtml" />
     <None Include="Properties\PublishProfiles\PointsQatarRedesignDev.pubxml" />
