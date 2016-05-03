@@ -422,7 +422,6 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
     <None Include="Properties\PublishProfiles\PointsQatarRedesignDev %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\PointsQatarRedesignDev - Web Deploy.pubxml" />
     <Content Include="Views\Home\Platforms.cshtml" />
     <None Include="Properties\PublishProfiles\PointsQatarRedesignDev.pubxml" />
   </ItemGroup>
