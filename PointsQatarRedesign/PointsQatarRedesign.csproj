@@ -355,6 +355,7 @@
     <Content Include="images\services\services5.png" />
     <Content Include="images\services\services6.png" />
     <Content Include="images\services\slider-bg.png" />
+    <Content Include="images\services\socialmedia.png" />
     <Content Include="images\services\software.png" />
     <Content Include="images\services\web.png" />
     <Content Include="images\service\client1.png" />
