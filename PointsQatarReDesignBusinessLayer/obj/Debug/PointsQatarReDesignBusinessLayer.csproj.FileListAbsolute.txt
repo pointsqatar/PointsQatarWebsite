@@ -1,0 +1,4 @@
+D:\Projects\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Debug\PointsQatarReDesignBusinessLayer.dll
+D:\Projects\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Debug\PointsQatarReDesignBusinessLayer.pdb
+D:\Projects\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Debug\PointsQatarReDesignBusinessLayer.dll
+D:\Projects\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Debug\PointsQatarReDesignBusinessLayer.pdb

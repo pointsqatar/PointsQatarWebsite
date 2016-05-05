@@ -343,6 +343,7 @@
     <Content Include="images\services\bg_services.png" />
     <Content Include="images\services\cctv.png" />
     <Content Include="images\services\desktop.png" />
+    <Content Include="images\services\graphics.png" />
     <Content Include="images\services\hardware.png" />
     <Content Include="images\services\laptop.png" />
     <Content Include="images\services\network.png" />
@@ -421,9 +422,9 @@
     <Content Include="Views\Home\Services.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
+    <None Include="Properties\PublishProfiles\pointsqatar.pubxml" />
     <None Include="Properties\PublishProfiles\PointsQatarRedesignDev %282%29.pubxml" />
     <Content Include="Views\Home\Platforms.cshtml" />
-    <None Include="Properties\PublishProfiles\PointsQatarRedesignDev.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
