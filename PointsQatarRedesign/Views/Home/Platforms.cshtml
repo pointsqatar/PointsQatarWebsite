@@ -49,7 +49,9 @@
             success: function (data) {
                 if (data != '' && data != undefined) {
                     var newsContent = '';
-                    for (i = 0; i < 4; i++) {
+                    $('#newsUpdates').css("height", "300px");
+                    $('#newsUpdates').css("overflow-y", "scroll");
+                    for (i = 0; i < data.length; i++) {
                         newsContent += '<div class="media accordion-inner">' +
                             '<div class="media-body">' +
                             '<h4>' + data[i].Title + '</h4>' +
