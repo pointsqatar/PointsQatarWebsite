@@ -426,6 +426,7 @@
     <None Include="Properties\PublishProfiles\pointsqatar.pubxml" />
     <None Include="Properties\PublishProfiles\PointsQatarRedesignDev %282%29.pubxml" />
     <Content Include="Views\Home\Platforms.cshtml" />
+    <Content Include="Views\Home\Trading.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

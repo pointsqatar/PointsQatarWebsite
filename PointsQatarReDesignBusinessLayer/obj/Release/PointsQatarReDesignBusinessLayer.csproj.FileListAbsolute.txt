@@ -2,3 +2,7 @@ D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Release\Points
 D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Release\PointsQatarReDesignBusinessLayer.pdb
 D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Release\PointsQatarReDesignBusinessLayer.dll
 D:\GitHub\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Release\PointsQatarReDesignBusinessLayer.pdb
+D:\Projects\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Release\PointsQatarReDesignBusinessLayer.dll
+D:\Projects\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\bin\Release\PointsQatarReDesignBusinessLayer.pdb
+D:\Projects\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Release\PointsQatarReDesignBusinessLayer.dll
+D:\Projects\PointsQatarWebsite\PointsQatarReDesignBusinessLayer\obj\Release\PointsQatarReDesignBusinessLayer.pdb

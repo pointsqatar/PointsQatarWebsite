@@ -22,6 +22,7 @@ namespace PointsQatarRedesign.Controllers
             ViewBag.isAboutUsActive = string.Empty;
             ViewBag.isContacuUsActive = string.Empty;
             ViewBag.isPlatformsActive = string.Empty;
+            ViewBag.isTradingActive = string.Empty;
             return View();
         }
 
@@ -33,6 +34,7 @@ namespace PointsQatarRedesign.Controllers
             ViewBag.isAboutUsActive = string.Empty;
             ViewBag.isContacuUsActive = string.Empty;
             ViewBag.isPlatformsActive = string.Empty;
+            ViewBag.isTradingActive = string.Empty;
             return View();
         }
 
@@ -44,6 +46,7 @@ namespace PointsQatarRedesign.Controllers
             ViewBag.isAboutUsActive = string.Empty;
             ViewBag.isContacuUsActive = "active";
             ViewBag.isPlatformsActive = string.Empty;
+            ViewBag.isTradingActive = string.Empty;
             return View();
         }
 
@@ -55,6 +58,7 @@ namespace PointsQatarRedesign.Controllers
             ViewBag.isAboutUsActive = "active";
             ViewBag.isContacuUsActive = string.Empty;
             ViewBag.isPlatformsActive = string.Empty;
+            ViewBag.isTradingActive = string.Empty;
             return View();
         }
 
@@ -66,6 +70,19 @@ namespace PointsQatarRedesign.Controllers
             ViewBag.isAboutUsActive = string.Empty;
             ViewBag.isContacuUsActive = string.Empty;
             ViewBag.isPlatformsActive = "active";
+            ViewBag.isTradingActive = string.Empty;
+            return View();
+        }
+
+        [ActionName("trading")]
+        public ActionResult Trading()
+        {
+            ViewBag.isIndexActive = string.Empty;
+            ViewBag.isServicesActive = string.Empty;
+            ViewBag.isAboutUsActive = string.Empty;
+            ViewBag.isContacuUsActive = string.Empty;
+            ViewBag.isPlatformsActive = string.Empty;
+            ViewBag.isTradingActive = "active";
 
             return View();
         }
