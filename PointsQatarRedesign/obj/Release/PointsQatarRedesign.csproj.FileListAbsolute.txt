@@ -227,3 +227,17 @@ D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\Microsoft.Owin.Security.M
 D:\Projects\PointsQatarWebsite\PointsQatarRedesign\obj\Release\PointsQatarRedesign.csprojResolveAssemblyReference.cache
 D:\Projects\PointsQatarWebsite\PointsQatarRedesign\obj\Release\PointsQatarRedesign.dll
 D:\Projects\PointsQatarWebsite\PointsQatarRedesign\obj\Release\PointsQatarRedesign.pdb
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\csc.exe.config
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\csc.rsp
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\csi.exe
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\csi.rsp
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\System.AppContext.dll
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\vbc.exe.config
+D:\Projects\PointsQatarWebsite\PointsQatarRedesign\bin\roslyn\vbc.rsp
